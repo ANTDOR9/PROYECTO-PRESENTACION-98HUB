@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BT-98LKT HUB · Propuesta para la Escuela de Ingeniería de Sistemas — UNSA</title>
+<meta name="description" content="Propuesta técnico-comercial BTOUCH BT-98LKT HUB para la Escuela Profesional de Ingeniería de Sistemas, UNSA.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#hero" aria-label="Brighter Perú - Inicio">
+      <img src="assets/img/logo-brighter.png" alt="Brighter Perú" class="nav__logo nav__logo--dark">
+      <img src="assets/img/logo-brighter-white.png" alt="Brighter Perú" class="nav__logo nav__logo--light">
+    </a>
+    <nav class="nav__links" aria-label="Navegación principal">
+      <a href="#contexto">Contexto</a>
+      <a href="#equipo">El equipo</a>
+      <a href="#ventajas">Ventajas</a>
+      <a href="#casos">Casos de uso</a>
+      <a href="#cierre">Contacto</a>
+    </nav>
+    <a href="#cierre" class="btn btn--cta nav__cta">Agendar demo</a>
+    <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav__mobile" id="navMobile" aria-label="Navegación móvil">
+    <a href="#contexto">Contexto</a>
+    <a href="#equipo">El equipo</a>
+    <a href="#ventajas">Ventajas</a>
+    <a href="#casos">Casos de uso</a>
+    <a href="#cierre" class="btn btn--cta">Agendar demo</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ 1. HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__media media-frame" data-media-frame>
+      <video class="hero__video" autoplay muted loop playsinline poster="assets/img/hero-poster.jpg">
+        <source src="assets/video/hero-loop.mp4" type="video/mp4">
+      </video>
+      <div class="media-frame__placeholder">
+        <span class="media-frame__placeholder-icon">▶</span>
+        <p>Video de fondo pendiente</p>
+        <code>assets/video/hero-loop.mp4</code>
+      </div>
+      <div class="hero__blur" aria-hidden="true"></div>
+      <div class="hero__scrim"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow eyebrow--light">BTOUCH · Propuesta técnico-comercial</p>
+      <h1 class="hero__title">
+        El aula con un <em>computador de nivel profesional</em> integrado
+      </h1>
+      <p class="hero__sub">
+        BT-98LKT HUB — pantalla interactiva de 98" con Windows 11 y Android 15 en un solo equipo,
+        preparada para la Escuela Profesional de Ingeniería de Sistemas de la UNSA.
+      </p>
+      <div class="hero__actions">
+        <a href="#cierre" class="btn btn--cta">Agendar demostración</a>
+        <a href="#equipo" class="btn btn--ghost">Ver el equipo ↓</a>
+      </div>
+    </div>
+
+    <button class="hero__scrollcue" id="scrollCue" aria-label="Bajar a la siguiente sección">
+      <span></span>
+    </button>
+  </section>
+
+  <div class="fold fold--down" aria-hidden="true"></div>
+
+  <!-- ============ 2. CONTEXTO ============ -->
+  <section class="section section--light" id="contexto">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Contexto institucional</p>
+      <h2 class="section__title" data-reveal>Una escuela de excelencia necesita infraestructura a la altura</h2>
+
+      <div class="grid-3">
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">🎓</div>
+          <h3>Acreditación ABET desde 1995</h3>
+          <p>Cada proceso de re-acreditación evalúa también la infraestructura tecnológica del aula como evidencia institucional.</p>
+        </article>
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">🌐</div>
+          <h3>Congreso Internacional CIIS</h3>
+          <p>Ponentes internacionales exigen equipos de videoconferencia fiables, sin montajes improvisados de última hora.</p>
+        </article>
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">📋</div>
+          <h3>Una decisión con impacto directo</h3>
+          <p>Como entidad pública, esta adquisición inicia un proceso de contratación formal. La propuesta debe sostenerlo desde el primer momento.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2b. VENTAJAS PEDAGÓGICAS PARA INGENIERÍA DE SISTEMAS ============ -->
+  <section class="section section--tint">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Más allá del aula</p>
+      <h2 class="section__title" data-reveal>Una pizarra interactiva no es solo tecnología: es pedagogía comprobada</h2>
+      <p class="section__lead" data-reveal>Ventajas específicas para la formación de ingenieros de software, respaldadas por investigación educativa y práctica de la industria.</p>
+
+      <div class="carousel" data-carousel>
+        <div class="carousel__track" data-carousel-track>
+
+          <article class="carousel__slide media-frame" data-media-frame data-reveal>
+            <img src="assets/img/live-coding.jpg" alt="Live coding frente a la clase">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/live-coding.jpg</code>
+            </div>
+            <div class="carousel__scrim"></div>
+            <div class="carousel__content">
+              <span class="carousel__icon">💻</span>
+              <h3>Live coding frente a la clase</h3>
+              <p>Programar en vivo, cometer errores y depurarlos junto a los estudiantes normaliza el error como parte del proceso y refuerza la comprensión mejor que una diapositiva estática.</p>
+            </div>
+          </article>
+
+          <article class="carousel__slide media-frame" data-media-frame data-reveal>
+            <img src="assets/img/pair-programming.jpg" alt="Pair programming multitáctil">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/pair-programming.jpg</code>
+            </div>
+            <div class="carousel__scrim"></div>
+            <div class="carousel__content">
+              <span class="carousel__icon">🤝</span>
+              <h3>Pair programming multitáctil</h3>
+              <p>La investigación en educación de software muestra que programar en pareja aumenta la satisfacción, la persistencia y la confianza del estudiante. El táctil de 50 puntos permite trabajar a la vez, sin turnarse.</p>
+            </div>
+          </article>
+
+          <article class="carousel__slide media-frame" data-media-frame data-reveal>
+            <img src="assets/img/entrevista-tecnica.jpg" alt="Simulacro de entrevistas técnicas">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/entrevista-tecnica.jpg</code>
+            </div>
+            <div class="carousel__scrim"></div>
+            <div class="carousel__content">
+              <span class="carousel__icon">🧩</span>
+              <h3>Simulacro de entrevistas técnicas</h3>
+              <p>El "whiteboard coding interview" sigue siendo el formato que usan las empresas de tecnología para evaluar candidatos. Practicarlo en una pizarra grande real acerca a los estudiantes a la experiencia de una entrevista técnica.</p>
+            </div>
+          </article>
+
+          <article class="carousel__slide media-frame" data-media-frame data-reveal>
+            <img src="assets/img/algoritmos.jpg" alt="Visualización de algoritmos">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/algoritmos.jpg</code>
+            </div>
+            <div class="carousel__scrim"></div>
+            <div class="carousel__content">
+              <span class="carousel__icon">📊</span>
+              <h3>Visualización de algoritmos</h3>
+              <p>Estructuras de datos, recursividad y complejidad se explican mejor con anotaciones en capas sobre diagramas y simulaciones ajustables en tiempo real, en vez de código estático en una diapositiva.</p>
+            </div>
+          </article>
+
+          <article class="carousel__slide media-frame" data-media-frame data-reveal>
+            <img src="assets/img/participacion.jpg" alt="Mayor participación y retención">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/participacion.jpg</code>
+            </div>
+            <div class="carousel__scrim"></div>
+            <div class="carousel__content">
+              <span class="carousel__icon">📈</span>
+              <h3>Mayor participación y retención</h3>
+              <p>Estudios con estudiantes de primer año muestran mayor compromiso académico en clases con pantalla interactiva, especialmente en cursos técnicos que suelen percibirse como más difíciles.</p>
+            </div>
+          </article>
+
+          <article class="carousel__slide media-frame" data-media-frame data-reveal>
+            <img src="assets/img/soporte-ti.jpg" alt="Menor carga para TI">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/soporte-ti.jpg</code>
+            </div>
+            <div class="carousel__scrim"></div>
+            <div class="carousel__content">
+              <span class="carousel__icon">🛠️</span>
+              <h3>Menor carga para TI</h3>
+              <p>Al ser un equipo todo-en-uno, la implementación es rápida y el mantenimiento mínimo comparado con proyector, PC y cámara por separado — una consideración real para quien debe soportarlo después.</p>
+            </div>
+          </article>
+
+        </div>
+        <button class="carousel__arrow carousel__arrow--prev" data-carousel-prev aria-label="Ventaja anterior">‹</button>
+        <button class="carousel__arrow carousel__arrow--next" data-carousel-next aria-label="Siguiente ventaja">›</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section--light section--tight" id="equipo">
+    <div class="container">
+      <div class="split">
+        <div class="split__text" data-reveal>
+          <p class="eyebrow">La propuesta</p>
+          <h2 class="section__title">Un centro de cómputo y colaboración, no solo una pantalla</h2>
+          <p class="split__lead">
+            El BT-98LKT HUB integra un computador de gama alta dentro del panel: sin CPU externa
+            que instalar, cablear ni proteger. Ficha técnica del modelo BT-98LKT HUB, línea BTOUCH.
+          </p>
+          <ul class="stat-row">
+            <li><strong>98″</strong><span>Panel UHD 4K</span></li>
+            <li><strong>i7</strong><span>12ª generación Intel</span></li>
+            <li><strong>36</strong><span>meses de garantía</span></li>
+          </ul>
+        </div>
+        <div class="split__media">
+          <div class="media-frame media-frame--product card--fold" data-media-frame>
+            <img src="assets/img/pantalla-interactiva.png" alt="Pantalla interactiva BT-98LKT HUB">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen del equipo pendiente</p>
+              <code>assets/img/pantalla-interactiva.png</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. CÓMPUTO DUAL ============ -->
+  <section class="section section--light" id="ventajas">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Ventaja · Cómputo dual</p>
+      <h2 class="section__title" data-reveal>Un cerebro para cada necesidad del aula</h2>
+      <p class="section__lead" data-reveal>Sin CPU externa que instalar, cablear ni proteger: el computador vive dentro de la pantalla.</p>
+
+      <div class="split split--reverse">
+        <div class="split__text" data-reveal>
+
+        <div class="os-card">
+                    <div class="os-card__head" data-reveal="right">
+                      <span class="os-icon" data-media-frame>
+                        <img src="assets/img/icon-windows.png" alt="Windows 11">
+                        <span class="os-icon__fallback" aria-hidden="true">🪟</span>
+                      </span>
+                      <h3>Windows 11 · Módulo OPS</h3>
+                    </div>
+
+            <ul class="check-list">
+              <li>Intel Core i7-1250U (12ª gen.), gráficos Iris Xe</li>
+              <li>8GB RAM, SSD de 256GB</li>
+              <li>Corre IDEs, compiladores y ofimática real de la carrera</li>
+              <li>Ideal para laboratorios de programación y desarrollo</li>
+            </ul>
+          </div>
+
+          <div class="os-card os-card--alt">
+                      <div class="os-card__head" data-reveal="right">
+                        <span class="os-icon" data-media-frame>
+                          <img src="assets/img/icon-android.png" alt="Android 15">
+                          <span class="os-icon__fallback" aria-hidden="true">🤖</span>
+                        </span>
+                        <h3>Android 15 · Panel táctil</h3>
+                      </div>
+                      
+            <ul class="check-list">
+              <li>Octa-Core ARM Cortex-A76/A55, GPU Mali-G610</li>
+              <li>16GB RAM, 256GB de almacenamiento</li>
+              <li>Pizarra digital y apps educativas sin encender Windows</li>
+              <li>Ideal para clases ágiles y dinámicas de pizarra</li>
+            </ul>
+          </div>
+          <p class="os-note">Un solo botón físico alterna entre ambos sistemas.</p>
+        </div>
+        <div class="split__media">
+          <div class="media-frame card--fold" data-media-frame>
+          <video autoplay muted loop playsinline>
+                        <source src="assets/video/feature-computo.mp4" type="video/mp4">
+                      </video>
+                      <div class="media-frame__placeholder">
+                        <span class="media-frame__placeholder-icon">▶</span>
+                        <p>Video pendiente</p>
+                        <code>assets/video/feature-computo.mp4</code>
+                      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. VIDEOCONFERENCIA ============ -->
+  <section class="section section--tint">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Ventaja · Videoconferencia</p>
+      <h2 class="section__title" data-reveal>Un auditorio completo, sin equipo adicional</h2>
+      <p class="section__lead" data-reveal>Elimina la necesidad de comprar, instalar y mantener equipos de videoconferencia separados.</p>
+
+      <div class="split">
+        <div class="split__media">
+          <div class="media-frame card--fold" data-media-frame>
+            <img src="assets/img/feature-video.png" alt="Videoconferencia con el BT-98LKT HUB">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/feature-video.png</code>
+            </div>
+          </div>
+        </div>
+        <div class="split__text" data-reveal>
+          <div class="feature-row">
+            <span class="feature-row__icon">📷</span>
+            <div>
+              <h3>Cámara 48MP · UHD 4K a 30fps</h3>
+              <p>Gran angular de 110° que cubre un aula o auditorio completo, sin cámara externa.</p>
+            </div>
+          </div>
+          <div class="feature-row">
+            <span class="feature-row__icon">🎙</span>
+            <div>
+              <h3>Arreglo de 8 micrófonos</h3>
+              <p>Captación de voz clara hasta 10 metros, sin micrófono de mano ni instalación adicional.</p>
+            </div>
+          </div>
+          <div class="feature-row">
+            <span class="feature-row__icon">💬</span>
+            <div>
+              <h3>Colaboración remota fluida</h3>
+              <p>Jurados, asesores o ponentes internacionales participan con audio e imagen nítidos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. TÁCTIL, SEGURIDAD, CONECTIVIDAD ============ -->
+  <section class="section section--light">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Ventajas · Panel, seguridad y conectividad</p>
+      <h2 class="section__title" data-reveal>Diseñado para el uso intensivo de una universidad</h2>
+
+      <div class="split split--reverse">
+        <div class="split__text" data-reveal>
+          <div class="feature-row">
+            <span class="feature-row__icon">✋</span>
+            <div>
+              <h3>Panel táctil de trabajo colaborativo</h3>
+              <p>4K UHD, 410 cd/m², 178°/178° de ángulo de visión. Táctil infrarrojo de 50 puntos simultáneos, precisión ±1mm: varios estudiantes trabajan a la vez. Vidrio templado 3mm, dureza 7H, antibacteriano y antihuellas.</p>
+            </div>
+          </div>
+          <div class="feature-row">
+            <span class="feature-row__icon">🔒</span>
+            <div>
+              <h3>Seguridad del activo institucional</h3>
+              <p>Bloqueo por NFC con 2 tarjetas incluidas. Detección PIR con apagado automático y sensor de luz ambiental.</p>
+            </div>
+          </div>
+          <div class="feature-row">
+            <span class="feature-row__icon">🔌</span>
+            <div>
+              <h3>Conectividad sin adaptadores</h3>
+              <p>Wi-Fi 6, Bluetooth 5.2, hotspot. 4 HDMI, 3 LAN (RJ45), 4 USB Type-C, USB 2.0/3.0, S/PDIF, DisplayPort y RS232.</p>
+            </div>
+          </div>
+        </div>
+        <div class="split__media">
+          <div class="media-frame card--fold" data-media-frame>
+            <img src="assets/img/feature-tactil.jpg" alt="Interacción táctil multipunto en el BT-98LKT HUB">
+            <div class="media-frame__placeholder">
+              <span class="media-frame__placeholder-icon">🖼</span>
+              <p>Imagen pendiente</p>
+              <code>assets/img/feature-tactil.jpg</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. CASOS DE USO ============ -->
+  <section class="section section--tint" id="casos">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Aplicación directa</p>
+      <h2 class="section__title" data-reveal>Cada ventaja, resuelta en la vida real de la escuela</h2>
+
+      <div class="grid-3 grid-3--use">
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">🎓</div><h3>Defensas de tesis</h3>
+          <p>Cámara y micrófonos integrados eliminan errores técnicos frente a jurados o asesores a distancia.</p>
+        </article>
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">🌐</div><h3>Congreso CIIS</h3>
+          <p>Videoconferencia de calidad profesional con ponentes internacionales, sin laptops ni proyectores extra.</p>
+        </article>
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">🧑‍🏫</div><h3>Clases híbridas</h3>
+          <p>Un docente o alumno participa en remoto con audio e imagen nítidos.</p>
+        </article>
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">💻</div><h3>Laboratorios de programación</h3>
+          <p>Windows 11 integrado corre IDEs y herramientas reales de la carrera, sin PC de laboratorio aparte.</p>
+        </article>
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">📜</div><h3>Evidencia ante ABET</h3>
+          <p>Infraestructura de punta como evidencia institucional en procesos de acreditación.</p>
+        </article>
+        <article class="card card--fold" data-reveal>
+          <div class="card__icon">🪪</div><h3>Seguridad del equipo</h3>
+          <p>El bloqueo NFC protege un activo de alto valor en un espacio de uso compartido.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. GARANTÍA Y ACCESORIOS ============ -->
+  <section class="section section--light">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Respaldo comercial</p>
+      <h2 class="section__title" data-reveal>Instalación lista, sin costos ocultos</h2>
+
+      <div class="warranty">
+        <div class="warranty__badge card--fold" data-reveal>
+          <span class="warranty__number">36</span>
+          <span class="warranty__label">meses de garantía</span>
+          <span class="warranty__note">Consumo en reposo ≤0.5W · Operación 5–35°C, compatible con el clima de Arequipa</span>
+        </div>
+        <div class="warranty__list" data-reveal>
+          <h3>Accesorios incluidos</h3>
+          <ul class="check-list check-list--two-col">
+            <li>2 lápices táctiles magnéticos</li>
+            <li>Soporte de pared (VESA 900×600mm)</li>
+            <li>Cable HDMI</li>
+            <li>Cable táctil USB (A-B 5m)</li>
+            <li>2 tarjetas de acceso NFC</li>
+            <li>Mando a distancia</li>
+            <li>Guía de inicio rápido</li>
+          </ul>
+          <p class="pending-note">Precios, condiciones de pago y plazos de entrega: pendientes de completar según cotización formal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="fold fold--up" aria-hidden="true"></div>
+
+  <!-- ============ 9. CIERRE / CTA ============ -->
+  <section class="section section--dark" id="cierre">
+    <div class="container">
+      <p class="eyebrow eyebrow--light" data-reveal>Siguiente paso</p>
+      <h2 class="section__title section__title--light" data-reveal>El siguiente paso es verlo funcionar en su propia aula</h2>
+      <p class="section__lead section__lead--light" data-reveal>Proponemos dos acciones concretas para avanzar con la Escuela Profesional de Ingeniería de Sistemas.</p>
+
+      <div class="grid-2" data-reveal>
+        <div class="cta-card">
+          <span class="cta-card__icon">🗓</span>
+          <h3>Agendar una demostración en vivo</h3>
+          <p>Ver el BT-98LKT HUB en funcionamiento: cómputo dual, videoconferencia y panel táctil en un caso de uso real de la escuela.</p>
+          <a href="mailto:pendiente@brighter.pe" class="btn btn--cta">Agendar demo</a>
+        </div>
+        <div class="cta-card">
+          <span class="cta-card__icon">📄</span>
+          <h3>Iniciar la cotización formal</h3>
+          <p>Dar inicio al proceso de contratación institucional con la información técnica ya validada en esta propuesta.</p>
+          <a href="mailto:pendiente@brighter.pe" class="btn btn--ghost">Solicitar cotización</a>
+        </div>
+      </div>
+
+      <p class="pending-note pending-note--light">Contacto y datos de coordinación: pendientes de completar por Brighter Perú S.A.C.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <img src="assets/img/logo-brighter-white.png" alt="Brighter Perú" class="footer__logo">
+    <p>BTOUCH · Brighter Perú S.A.C. — Propuesta técnico-comercial para UNSA</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
